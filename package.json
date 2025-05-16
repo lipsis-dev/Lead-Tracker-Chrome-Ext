@@ -1,10 +1,11 @@
 {
   "name": "Scrim-s01uaas",
   "description": "https://scrimba.com/frontend-path-c0j/~09h/s03hnvvna9/head",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {
